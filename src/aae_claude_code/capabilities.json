@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "adapter": "claude-code",
+  "display_name": "Claude Code",
+  "verified_at": "2026-09-04",
+  "verified_versions": {"cli": ["2.1.198"]},
+  "sources": [
+    "https://code.claude.com/docs/en/memory",
+    "https://code.claude.com/docs/en/skills",
+    "https://code.claude.com/docs/en/hooks",
+    "https://code.claude.com/docs/en/sub-agents",
+    "https://code.claude.com/docs/en/mcp",
+    "https://code.claude.com/docs/en/plugins",
+    "https://code.claude.com/docs/en/permissions"
+  ],
+  "surfaces": {
+    "instructions": {"status": "native", "artifact": "CLAUDE.md"},
+    "skills": {"status": "native", "artifact": ".claude/skills/*/SKILL.md"},
+    "hooks": {"status": "native", "artifact": ".claude/settings.json"},
+    "agents": {"status": "native", "artifact": ".claude/agents/*.md"},
+    "mcp": {"status": "available", "artifact": ".mcp.json"},
+    "permissions": {"status": "native", "artifact": ".claude/settings.json"},
+    "plugins": {"status": "available", "artifact": "Claude Code plugin"},
+    "agent_teams": {"status": "available", "artifact": "Claude Code team configuration"}
+  }
+}
