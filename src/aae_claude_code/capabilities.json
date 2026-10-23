@@ -2,8 +2,8 @@
   "schema_version": 1,
   "adapter": "claude-code",
   "display_name": "Claude Code",
-  "verified_at": "2026-09-04",
-  "verified_versions": {"cli": ["2.1.198"]},
+  "verified_at": "2026-10-23",
+  "verified_versions": {"cli": ["2.1.198", "2.1.309"]},
   "sources": [
     "https://code.claude.com/docs/en/memory",
     "https://code.claude.com/docs/en/skills",
